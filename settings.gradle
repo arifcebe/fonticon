@@ -1,0 +1,2 @@
+include ':app', ':Icon Text'
+include ':lib_materialdesignicons'

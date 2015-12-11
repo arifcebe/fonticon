@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/lib_materialdesignicons/build/intermediates/res/merged/androidTest/debug/raw/google_material_design_icon.ttf",
+        "source": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/lib_materialdesignicons/build/intermediates/bundles/debug/res/raw/google_material_design_icon.ttf"
+    },
+    {
+        "merged": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/lib_materialdesignicons/build/intermediates/res/merged/androidTest/debug/raw/license",
+        "source": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/lib_materialdesignicons/build/intermediates/bundles/debug/res/raw/license"
+    }
+]

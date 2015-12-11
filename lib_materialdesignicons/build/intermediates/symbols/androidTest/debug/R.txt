@@ -1,0 +1,2 @@
+int raw google_material_design_icon 0x7f020000
+int raw license 0x7f020001
