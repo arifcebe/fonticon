@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

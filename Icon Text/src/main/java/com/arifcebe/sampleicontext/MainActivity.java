@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         //getMenuInflater().inflate(R.menu.menu_main, menu);
         this.menu = menu;
-        loadIconFont(menu);
+        loadIconFont();
         return true;
     }
 
@@ -70,16 +70,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void loadIconFont(Menu menu){
+    private void loadIconFont(){
         menu.clear();
         md.setColor(getResources().getColor(R.color.colorAccent));
 
-       /* MenuItem item1 = menu.add("title 1")
-                .setIcon(md.getDrawable(getResources().getString(R.string.ic_account_circle)));
-        item1.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
-        MenuItem item2 = menu.add("title 2")
-                .setIcon(md.getDrawable(getResources().getString(R.string.ic_account_box)));
-        item2.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);*/
         MenuItem test1 = menu.add("Material Icon").setIcon(
                 md.getMenuDrawable(getResources().getString(R.string.ic_account_circle)));
         test1.setShowAsAction( MenuItem.SHOW_AS_ACTION_ALWAYS );

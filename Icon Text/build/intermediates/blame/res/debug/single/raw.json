@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/res/merged/debug/raw/license",
+        "source": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/exploded-aar/Sample_Material_ICon/lib_materialdesignicons/unspecified/res/raw/license"
+    },
+    {
+        "merged": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/res/merged/debug/raw/google_material_design_icon.ttf",
+        "source": "/home/arifcebe/workspace/project_sample_app/Sample_Material_ICon/Icon Text/build/intermediates/exploded-aar/Sample_Material_ICon/lib_materialdesignicons/unspecified/res/raw/google_material_design_icon.ttf"
+    }
+]
