@@ -8,11 +8,11 @@
 Dalam MainActivity.class tambahkan code sebagai berikut untuk memanggil method menampilkan font icon.
 deklarasikan ImageView :
 
-```
+```java
 ImageView imgView = (ImageView) findViewById(R.id.imgView);
 ```
 #### dipanggil menggunakan instansiasi class
-```
+```java
 MaterialIcon mi = new MaterialIcon(this)
 imgView.setImageDrawable(mi.getDrawable(MainActivity.this,
         getResources().getString(R.string.ic_3d_rotation)));
@@ -20,14 +20,14 @@ imgView.setImageDrawable(mi.getDrawable(MainActivity.this,
 
 #### dipanggil menggunakan static akses
 Icon dapat digunakan sebagai image drawable.
-```
+```java
 imgView.setImageDrawable(MaterialIcon.getDrawable([context],
         [icon name],
         [color name]);
 ```
 #### Contoh cara memanggilnya :
 
-```
+```java
 imgView.setImageDrawable(MaterialIcon.getDrawable(MainActivity.this,
         getResources().getString(R.string.ic_3d_rotation),
         getResources().getColor(R.color.colorPrimary)));
