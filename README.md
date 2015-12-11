@@ -34,8 +34,10 @@ imgView.setImageDrawable(MaterialIcon.getDrawable(MainActivity.this,
 ```
 
 #### dipakai pada menu action bar
-
+buat method untuk setting menu item icon font
 ```java
+private Menu menu;
+
 private void loadIconFont(){
         menu.clear();
         md.setColor(getResources().getColor(R.color.colorAccent));
@@ -49,6 +51,14 @@ private void loadIconFont(){
         test2.setShowAsAction(MenuItem.SHOW_AS_ACTION_ALWAYS);
 
     }
+```
+kemudian masukkan ke dalam method 
+
+```java 
+public boolean onCreateOptionsMenu(Menu menu)
+``` 
+
+```java
     
      @Override
         public boolean onCreateOptionsMenu(Menu menu) {
@@ -58,4 +68,9 @@ private void loadIconFont(){
             loadIconFont();
             return true;
         }
+```
+
+###### Special thanks to
+```java
+        JoanZapata and vin89423 thanks a lot for this library
 ```
