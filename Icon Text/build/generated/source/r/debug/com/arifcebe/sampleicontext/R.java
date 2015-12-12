@@ -2397,8 +2397,9 @@ containing a value of this type.
         public static final int ic_launcher=0x7f030000;
     }
     public static final class raw {
-        public static final int google_material_design_icon=0x7f060000;
-        public static final int license=0x7f060001;
+        public static final int fontawesome_webfont=0x7f060000;
+        public static final int google_material_design_icon=0x7f060001;
+        public static final int license=0x7f060002;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;

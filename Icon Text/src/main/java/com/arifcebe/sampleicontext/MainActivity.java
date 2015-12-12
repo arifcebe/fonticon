@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.vinexs.mdicon.MaterialFontAwesomeIcon;
 import com.vinexs.mdicon.MaterialIcon;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                imgView.setImageDrawable(MaterialIcon.getDrawable(MainActivity.this,
-                        getResources().getString(R.string.ic_3d_rotation),
+                imgView.setImageDrawable(MaterialFontAwesomeIcon.getDrawable(MainActivity.this,
+                        "ic_search",
                         getResources().getColor(R.color.colorPrimary)));
 
                 tv.setBackground(MaterialIcon.getDrawable(MainActivity.this,

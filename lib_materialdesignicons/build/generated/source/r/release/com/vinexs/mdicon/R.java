@@ -11,8 +11,9 @@ public final class R {
     public static final class attr {
     }
     public static final class raw {
-        public static int google_material_design_icon=0x7f020000;
-        public static int license=0x7f020001;
+        public static int fontawesome_webfont=0x7f020000;
+        public static int google_material_design_icon=0x7f020001;
+        public static int license=0x7f020002;
     }
     public static final class string {
         public static int ic_3d_rotation=0x7f030000;
